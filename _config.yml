@@ -1,1 +1,30 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: Campaign meister
+description: Content for the campaign meister
+baseurl: "/campaignmeister_pages" # the subpath of your site, e.g. /blog
+url: "https://humandataassociates.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: pretty
+exclude: ["Gemfile", "Gemfile.lock","LICENSE.txt", "README.md"]
+
+# Enable or disable the site search
+search_enabled: true
+
+# Enable or disable heading anchors
+heading_anchors: fasle
+
+# Aux links for the upper right navigation
+aux_links:
+  "Docs on GitHub":
+    - "github.com/humandataassociates/campaignmeister_pages"
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2019 humandataassociates. Distributed by an <a href=\"https://github.com/humandataassociates/campaignmeister_pages/tree/master/LICENSE.txt\">MIT license.</a>"
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blank_lines: false
+  profile: false
