@@ -11,7 +11,7 @@ exclude: ["Gemfile", "Gemfile.lock","LICENSE.txt", "README.md"]
 search_enabled: true
 
 # Enable or disable heading anchors
-heading_anchors: fasle
+heading_anchors: false
 
 # Aux links for the upper right navigation
 aux_links:
