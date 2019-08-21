@@ -28,3 +28,7 @@ compress_html:
   startings: []
   blank_lines: false
   profile: false
+
+# Plugins
+plugins:
+  - jekyll-feed
