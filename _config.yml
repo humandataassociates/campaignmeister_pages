@@ -32,3 +32,4 @@ compress_html:
 # Plugins
 plugins:
   - jekyll-feed
+  - github-pages
